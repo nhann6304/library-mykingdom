@@ -1,3 +1,3 @@
-export * as TnCore from "./core";
-export * as TnConstants from "./constants";
-export * as TnInterfaces from "./interfaces";
+export * as KDCore from "./core";
+export * as KDConstants from "./constants";
+export * as KDInterfaces from "./interfaces";
