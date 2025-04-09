@@ -1,0 +1,1 @@
+// export * as Res from "./res"
