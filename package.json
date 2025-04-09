@@ -1,0 +1,26 @@
+{
+  "name": "lib-tn",
+  "description": "Library common job Mykingdom",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/nhann6304"
+  },
+  "homepage": "https://google.com",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "Hồ Khánh Phương Uyên",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/http-status-codes": "^1.2.0",
+    "http-status-codes": "^2.3.0"
+  }
+}
