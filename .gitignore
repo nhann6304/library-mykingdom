@@ -1,7 +1,6 @@
 /dist
 /node_modules
+commit.bat
 
 .env
 .DS_Store
-
-cmd-commit-dev.bat

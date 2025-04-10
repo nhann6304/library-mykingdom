@@ -1,5 +1,5 @@
-import { EAgeGroup, EGender } from "../../enums";
-import { ICompany } from "./ICompany.inteface";
+import { EGender, EAgeGroup } from "../../enums/common";
+import { ICompany } from "./ICompany.interface";
 import { IImage } from "./IImage.interface";
 
 export interface IProduct {
@@ -7,7 +7,7 @@ export interface IProduct {
     prod_name: string;
     prod_thumb: string;
     prod_thumbnails?: IImage[];
-    prod_company: string | ICompany; // Thương hiệu
+    prod_company: ICompany; // Thương hiệu
     prod_sku: string; // Mã hàng hóa
     prod_slug: string;
     prod_price: number;

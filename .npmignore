@@ -1,11 +1,8 @@
-/dist
+/src
 /node_modules
-
+.npmignore
 .env
 .DS_Store
 
-
-tsup.config.ts
 tsconfig.json
-
-cmd-commit-dev.bat
+tsup.config.ts

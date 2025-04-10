@@ -1,4 +1,5 @@
-import { ERole, EGender, EStatusUser } from "../../enums";
+import { ERole, EGender } from "../../enums/common";
+import { EStatusUser } from "../../enums/status";
 
 export interface IUser {
     id?: string;
